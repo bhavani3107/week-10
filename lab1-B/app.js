@@ -25,7 +25,7 @@ connectDB();
 
 app.use("/", locationSSRRouter);
 
-const PORT = 4000;
+const PORT = 8000;
 
 // Start the server
 app.listen(PORT, () => {
